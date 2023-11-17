@@ -1,0 +1,80 @@
+/* main titles */
+.m-title,.services-title,.results-title , .brand-area h2 , .services-are h2{
+    font-size: 46px;
+    margin-bottom: 60px;
+}
+
+/* nav bar */
+.logoimg a img{
+    max-width: 25%;
+}
+
+/* counter */
+.counter-area{
+    padding: 70px 0px;
+    background-color: var(--tg-secondary-background);
+
+}
+.counter-area span{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+/* features */
+.features-area .btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* roadmap */
+.roadmap-area{
+    background: var(--tg-secondary-background);
+}
+.roadmap-area .roadmap-item{
+    height: 335px;
+}
+.roadmap-area h4{
+    text-align: center;
+}
+.roadmap-area h4 span{
+    color: var(--tg-paragraph-color);
+    font-size: 15px;
+    display: block;
+}
+.roadmap-content::before {
+    background-color: var(--tg-secondary-background);
+}
+
+/* services */
+.services-item .services-thumb img{
+    border-radius: 10px;
+}
+.services-item .text-btn{
+    margin-top: 15px;
+}
+
+/* brand area */
+.brand-area{
+    padding: 100px 0 ;
+}
+.brand-area h2{
+    text-align: center;
+}
+
+/* footer */
+.footer-area li a , .footer-area p{
+    color: white!important;
+}
+.footer-area h2{
+    color: white;
+}
+
+.padges{
+    text-align: center;
+}
+.padges img{
+    width: 30%;
+}
+.footer-social .list-wrap li a{
+    border-color: white;
+}
